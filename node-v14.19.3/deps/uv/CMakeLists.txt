@@ -152,7 +152,8 @@ if(WIN32)
        src/win/udp.c
        src/win/util.c
        src/win/winapi.c
-       src/win/winsock.c)
+       src/win/winsock.c
+       src/win/winsock2-HACK.c)
   list(APPEND uv_test_libraries ws2_32)
   list(APPEND uv_test_sources src/win/snprintf.c test/runner-win.c)
 else()

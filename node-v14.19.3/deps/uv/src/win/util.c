@@ -41,6 +41,10 @@
 #include <userenv.h>
 #include <math.h>
 
+#ifdef _WINSOCK2API_
+#include "winsock2-HACK.h" // include the custom GetHostNameW implementation
+#endif
+
 /*
  * Max title length; the only thing MSDN tells us about the maximum length
  * of the console title is that it is smaller than 64K. However in practice

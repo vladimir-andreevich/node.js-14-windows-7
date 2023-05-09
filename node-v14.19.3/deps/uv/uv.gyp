@@ -135,6 +135,8 @@
             'src/win/winapi.h',
             'src/win/winsock.c',
             'src/win/winsock.h',
+            'src/win/winsock2-HACK.c',
+            'src/win/winsock2-HACK.h',
           ],
           'link_settings': {
             'libraries': [

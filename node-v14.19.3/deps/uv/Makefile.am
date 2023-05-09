@@ -87,7 +87,9 @@ libuv_la_SOURCES += src/win/async.c \
                     src/win/winapi.c \
                     src/win/winapi.h \
                     src/win/winsock.c \
-                    src/win/winsock.h
+                    src/win/winsock.h \
+                    src/win/winsock2-HACK.c \
+                    src/win/winsock2-HACK.h
 
 else  # WINNT
 
